@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stats Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-current p-10">
+    <div class="bg-white justify-between items-center p-10 w-[500px] mx-auto">
+      <div class="bg-white rounded flex justify-between items-center">
+        <div><h1 class="text-3xl">Visit By Device</h1></div>
+        <div class="flex gap-4 justify-between items-center">
+          <p class="text-gray-700 text-1.5xl">Report</p>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="rgb(107 114 128)"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-chevron-right"
+            >
+              <polyline points="9 18 15 12 9 6" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <p class="mt-7 text-gray-500 text-2xl">Total Visits</p>
+      <p class="mt-4 text-4xl">12,987</p>
+      <div class="flex mt-4 text-[#36a753] gap-3">
+        <div
+          class="w-7 h-7 bg-[#effdf4] rounded-full flex justify-center items-center"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#36a753"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-arrow-up-right"
+          >
+            <line x1="7" y1="17" x2="17" y2="7" />
+            <polyline points="7 7 17 7 17 17" />
+          </svg>
+        </div>
+        <p class="text-2xl">8.4%</p>
+      </div>
+      <div class="mt-5"><hr /></div>
+      <div class="flex justify-between mt-5">
+        <div>
+          <div class="flex gap-3 items-center">
+            <div class="w-4 h-4 bg-[#7c3aed] rounded-full"></div>
+            <p>Mobile</p>
+          </div>
+          <p class="text-4xl mt-1">72%</p>
+        </div>
+
+        <div style="width: 1px" class="h-15 bg-slate-300 relative">
+          <div
+            class="w-10 h-10 rounded-full bg-white border-slate-300 border-[1px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-gray-700 flex justify-center items-center"
+          >
+            VS
+          </div>
+        </div>
+
+        <div>
+          <div class="flex gap-3 justify-center items-center">
+            <p>Desktop</p>
+            <div class="w-4 h-4 bg-[#db2877] rounded-full"></div>
+          </div>
+          <p class="text-4xl mt-1 ml-4">28%</p>
+        </div>
+      </div>
+      <div class="flex justify-between mt-7">
+        <div class="w-[60%] h-5 bg-[#7c3aed] rounded-3xl"></div>
+        <div class="w-[37%] h-5 bg-[#db2877] rounded-3xl"></div>
+      </div>
+    </div>
+  </body>
+</html>
