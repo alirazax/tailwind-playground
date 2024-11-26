@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Income Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-current">
+    <div class="bg-white p-5 w-[600PX] mx-auto">
+      <div class="flex justify-between">
+        <div class="flex gap-2">
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-external-link"
+            >
+              <path
+                d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+              />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+          </div>
+          <p class="text-4xl">income Tracker</p>
+        </div>
+        <div
+          class="flex border-slate-300 border-[1px] py-1 px-[8px] justify-between items-center rounded-3xl"
+        >
+          <p>Week</p>
+          <select name="Week" id="week"></select>
+        </div>
+      </div>
+      <p class="text-xs mt-2">
+        Track changes in income over time and access detailed data on each
+        <br />
+        project and payments received
+      </p>
+      <div class="flex  justify-between">
+        <div>
+          <p class="text-4xl">+20%</p>
+          <p>This week's income <br />is higer than last week's</p>
+          <div></div>
+        </div>
+        <div class="flex">
+          <div class="flex flex-col justify-center items-center">
+            <div class="w-1 h-1 p-1 bg-slate-300 rounded-full"></div>
+            <div class="w-[1px] h-16 bg-slate-300 mt-2"></div>
+            <div
+              class="w-8 h-8 bg-slate-500 rounded-full mt-2 flex justify-center items-center text-[14px]"
+            >
+              s
+            </div>
+          </div>
+          <div class="flex flex-col justify-center items-center">
+            <div class="w-1 h-1 p-1 bg-slate-300 rounded-full"></div>
+            <div class="w-[1px] h-24 bg-slate-300 mt-2"></div>
+            <div
+              class="w-8 h-8 bg-slate-500 rounded-full mt-2 flex justify-center items-center text-[14px]"
+            >
+              M
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
