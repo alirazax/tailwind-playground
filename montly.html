@@ -7,8 +7,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class>
-    <div class="bg-[#f8f8f8] w-[600px] p-5 mx-auto rounded mt-10" >
-      <div class="bg-white p-2 rounded-t-lg">
+    <div class="bg-[#f8f8f8] w-[600px] mx-auto rounded mt-10  rounded-t-3xl">
+      <div class="bg-white overflow-hidden p-7 w- rounded-t-3xl">
         <div class="flex justify-between bg">
           <p>Monthly Salery</p>
           <div>
@@ -58,347 +58,360 @@
           <li>Paid by 6/10</li>
         </ul>
       </div>
-      <p class="m-2">Details</p>
-      <div class="bg-white border-slate-300 border-[1px] text-xs rounded">
-        <div class="flex justify-between items-center p-2 px-3">
-          <p>Bill Names</p>
-          <p>Monthly Dues</p>
+      <div class="px-5">
+        <!-- details div-->
+        <p class="my-2">Details</p>
+        <div class="bg-white border-slate-300 border-[1px] text-xs rounded">
+          <div class="flex justify-between items-center p-2 px-3">
+            <p>Bill Names</p>
+            <p>Monthly Dues</p>
+          </div>
+          <hr />
+          <div class="flex justify-between items-center p-2 px-3">
+            <p>Amount</p>
+            <p>$250.00</p>
+          </div>
+          <hr />
+          <div class="flex justify-between items-center p-2 px-3">
+            <p>Bill Names</p>
+            <p>Monthly Dues</p>
+          </div>
         </div>
-        <hr />
-        <div class="flex justify-between items-center p-2 px-3">
-          <p>Amount</p>
-          <p>$250.00</p>
-        </div>
-        <hr />
-        <div class="flex justify-between items-center p-2 px-3">
-          <p>Bill Names</p>
-          <p>Monthly Dues</p>
-        </div>
-      </div>
-      <p class="m-2">Member</p>
 
-      <div class=" bg-white border-slate-300 border-[1px] text-xs rounded overflow-hidden">
-        <!--recipient div-->
-        <div class="p-2 px-3 bg-white text-xs">
-          <div class="flex justify-between items-center">
-            <p>Recipients</p>
-            <p class="mr-32">Status</p>
-          </div>
-        </div>
-        <hr />
-        <!-- below member part div-->
-        <div class="bg-white flex justify-between items-center text-xs">
-          <!--paid firsst line-->
-          <div class="p-2 px-3 flex gap-2 items-center">
-            <div
-              class="w-8 h-6 bg-[#d0bd76] flex rounded justify-center items-center"
-            >
-              H
+        <p class="my-2">Member</p>
+
+        <!--parent div of recipients and all below div-->
+        <div
+          class="bg-white border-slate-300 border-[1px] text-xs rounded overflow-hidden"
+        >
+          <div class="p-2 px-3 bg-white text-xs">
+            <div class="flex justify-between items-center">
+              <p>Recipients</p>
+              <p class="mr-32">Status</p>
             </div>
-            <p>87038 Hunnah Stravenue</p>
           </div>
-          <!-- right part of first line -->
-          <div class="flex gap-2 text-xs">
-            <div
-              class="w-8 h-6 bg-[#e5f7ea] justify-center items-center flex text-[#90e0a5] rounded"
-            >
-              Paid
+          <hr />
+          <!--Hunnah Stravenue div parent-->
+          <div class="bg-white flex justify-between items-center text-xs">
+            <!-- Hunnah Stravenue child one -->
+            <div class="p-2 px-3 flex gap-2 items-center">
+              <div
+                class="py-[1px] px-[5px] bg-[#d0bd76] flex rounded justify-center items-center"
+              >
+                H
+              </div>
+              <p>87038 Hunnah Stravenue</p>
             </div>
-            <div class="flex items-center">
-              <p class="text-[#8a8a8a] ml-10">View Invoice</p>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="gray"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-chevron-right"
-                >
-                  <polyline points="9 18 15 12 9 6" />
-                </svg>
+            <!-- Hunnah Stravenue child two -->
+            <div class="flex gap-2 text-xs">
+              <div
+                class="py-[1px] px-[5px] bg-[#e5f7ea] justify-center items-center flex text-[#90e0a5] rounded"
+              >
+                Paid
+              </div>
+              <div class="flex items-center">
+                <p class="text-[#8a8a8a] ml-10">View Invoice</p>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="gray"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-chevron-right"
+                  >
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <hr />
-        <div class="bg-white flex justify-between items-center text-xs">
-          <!--paid firsst line-->
-          <div class="p-2 px-3 flex gap-2 items-center">
-            <div
-              class="w-8 h-6 bg-[#77d1c1] flex rounded justify-center items-center"
-            >
-              W
+          <hr />
+          <!--Weber Spur parent div -->
+          <div class="bg-white flex justify-between items-center text-xs">
+            <!--Weber Spur chiild 1-->
+            <div class="p-2 px-3 flex gap-2 items-center">
+              <div
+                class="py-[1px] px-[5px] bg-[#77d1c1] flex rounded justify-center items-center"
+              >
+                W
+              </div>
+              <p>6931 Weber Spur</p>
             </div>
-            <p>87038 Hunnah Stravenue</p>
-          </div>
-          <!-- right part of first line -->
-          <div class="flex gap-2 text-xs">
-            <div
-              class="w-8 h-6 bg-[#e5f7ea] justify-center items-center flex text-[#90e0a5] rounded"
-            >
-              Paid
-            </div>
-            <div class="flex items-center">
-              <p class="text-[#8a8a8a] ml-10">View Invoice</p>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="gray"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-chevron-right"
-                >
-                  <polyline points="9 18 15 12 9 6" />
-                </svg>
+            <!-- Weber Spur child two -->
+            <div class="flex gap-2 text-xs">
+              <div
+                class="py-[1px] px-[5px] bg-[#e5f7ea] justify-center items-center flex text-[#90e0a5] rounded"
+              >
+                Paid
+              </div>
+              <div class="flex items-center">
+                <p class="text-[#8a8a8a] ml-10">View Invoice</p>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="gray"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-chevron-right"
+                  >
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <hr />
-        <div class="bg-white flex justify-between items-center text-xs">
-          <!--paid firsst line-->
-          <div class="p-2 px-3 flex gap-2 items-center">
-            <div
-              class="w-8 h-6 bg-[#76a0d1] flex rounded justify-center items-center"
-            >
-              M
+          <hr />
+          <!--  Myrtice Passage parent-->
+          <div class="bg-white flex justify-between items-center text-xs">
+            <!-- Myrtice Passage parent-->
+            <div class="p-2 px-3 flex gap-2 items-center">
+              <div
+                class="py-[1px] px-[5px] bg-[#76a0d1] flex rounded justify-center items-center"
+              >
+                M
+              </div>
+              <p>3385 Myrtice Passage</p>
             </div>
-            <p>3385 Myrtice Passage</p>
-          </div>
-          <!-- right part of first line -->
-          <div class="flex gap-2 text-xs">
-            <div
-              class="w-8 h-6 bg-[#e5f7ea] justify-center items-center flex text-[#90e0a5] rounded"
-            >
-              Paid
-            </div>
-            <div class="flex items-center">
-              <p class="text-[#8a8a8a] ml-10">View Invoice</p>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="gray"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-chevron-right"
-                >
-                  <polyline points="9 18 15 12 9 6" />
-                </svg>
+            <!--  Myrtice Passage child two -->
+            <div class="flex gap-2 text-xs">
+              <div
+                class="py-[1px] px-[5px] bg-[#e5f7ea] justify-center items-center flex text-[#90e0a5] rounded"
+              >
+                Paid
+              </div>
+              <div class="flex items-center">
+                <p class="text-[#8a8a8a] ml-10">View Invoice</p>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="gray"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-chevron-right"
+                  >
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <hr />
-        <div class="bg-white flex justify-between items-center text-xs">
-          <!--paid firsst line-->
-          <div class="p-2 px-3 flex gap-2 items-center">
-            <div
-              class="w-8 h-6 bg-[#9f78d0] flex rounded justify-center items-center"
-            >
-              M
+          <hr />
+          <!--Medurst mill parent-->
+          <div class="bg-white flex justify-between items-center text-xs">
+            <!--Medurst mill child one-->
+            <div class="p-2 px-3 flex gap-2 items-center">
+              <div
+                class="py-[1px] px-[5px] bg-[#9f78d0] flex rounded justify-center items-center"
+              >
+                M
+              </div>
+              <p>0705 Medurst mill</p>
             </div>
-            <p>0705 Medurst mill</p>
-          </div>
-          <!-- right part of first line -->
-          <div class="flex gap-2 text-xs">
-            <div
-              class="w-8 h-6 bg-[#e5f7ea] justify-center items-center flex text-[#90e0a5] rounded"
-            >
-              Paid
-            </div>
-            <div class="flex items-center">
-              <p class="text-[#8a8a8a] ml-10">View Invoice</p>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="gray"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-chevron-right"
-                >
-                  <polyline points="9 18 15 12 9 6" />
-                </svg>
+            <!-- Medurst mill child two -->
+            <div class="flex gap-2 text-xs">
+              <div
+                class="py-[1px] px-[5px] bg-[#e5f7ea] justify-center items-center flex text-[#90e0a5] rounded"
+              >
+                Paid
+              </div>
+              <div class="flex items-center">
+                <p class="text-[#8a8a8a] ml-10">View Invoice</p>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="gray"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-chevron-right"
+                  >
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <hr />
-        <div class="bg-white flex justify-between items-center text-xs">
-          <!--paid firsst line-->
-          <div class="p-2 px-3 flex gap-2 items-center">
-            <div
-              class="w-8 h-6 bg-[#d17776] flex rounded justify-center items-center"
-            >
-              E
+          <hr />
+          <!--Elisbabeth Shoal parent -->
+          <div class="bg-white flex justify-between items-center text-xs">
+            <!--Elisbabeth Shoal child one -->
+            <div class="p-2 px-3 flex gap-2 items-center">
+              <div
+                class="py-[1px] px-[5px] bg-[#d17776] flex rounded justify-center items-center"
+              >
+                E
+              </div>
+              <p>605 Elisbabeth Shoal</p>
             </div>
-            <p>605 Elisbabeth Shoal</p>
-          </div>
-          <!-- right part of first line -->
-          <div class="flex gap-2 text-xs">
-            <div
-              class="w-8 h-6 bg-[#e5f7ea] justify-center items-center flex text-[#90e0a5] rounded"
-            >
-              Paid
-            </div>
-            <div class="flex items-center">
-              <p class="text-[#8a8a8a] ml-10">View Invoice</p>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="gray"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-chevron-right"
-                >
-                  <polyline points="9 18 15 12 9 6" />
-                </svg>
+            <!-- Elisbabeth Shoal child two -->
+            <div class="flex gap-2 text-xs">
+              <div
+                class="py-[1px] px-[5px] bg-[#e5f7ea] justify-center items-center flex text-[#90e0a5] rounded"
+              >
+                Paid
+              </div>
+              <div class="flex items-center">
+                <p class="text-[#8a8a8a] ml-10">View Invoice</p>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="gray"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-chevron-right"
+                  >
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <hr />
-        <div class="bg-white flex justify-between items-center text-xs">
-          <!--paid firsst line-->
-          <div class="p-2 px-3 flex gap-2 items-center">
-            <div
-              class="w-8 h-6 bg-[#9f78d0] flex rounded justify-center items-center"
-            >
-              R
+          <hr />
+          <!-- Rosa Allay parent-->
+          <div class="bg-white flex justify-between items-center text-xs">
+            <!--Rosa Allay child one-->
+            <div class="p-2 px-3 flex gap-2 items-center">
+              <div
+                class="py-[1px] px-[5px] bg-[#9f78d0] flex rounded justify-center items-center"
+              >
+                R
+              </div>
+              <p>04178 Rosa Allay</p>
             </div>
-            <p>04178 Rosa Allay</p>
-          </div>
-          <!-- right part of first line -->
-          <div class="flex gap-2 text-xs">
-            <div
-              class="w-8 h-6 bg-[#e5f7ea] justify-center items-center flex text-[#90e0a5] rounded"
-            >
-              Paid
-            </div>
-            <div class="flex items-center">
-              <p class="text-[#8a8a8a] ml-10">View Invoice</p>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="gray"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-chevron-right"
-                >
-                  <polyline points="9 18 15 12 9 6" />
-                </svg>
+            <!-- Rosa Allay child two -->
+            <div class="flex gap-2 text-xs">
+              <div
+                class="py-[1px] px-[5px] bg-[#e5f7ea] justify-center items-center flex text-[#90e0a5] rounded"
+              >
+                Paid
+              </div>
+              <div class="flex items-center">
+                <p class="text-[#8a8a8a] ml-10">View Invoice</p>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="gray"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-chevron-right"
+                  >
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <hr />
-        <div class="bg-white flex justify-between items-center text-xs">
-          <!--paid firsst line-->
-          <div class="p-2 px-3 flex gap-2 items-center">
-            <div
-              class="w-8 h-6 bg-[#d177ad] flex rounded justify-center items-center"
-            >
-              H
+          <hr />
+          <!--Hannah Stravenue parent -->
+          <div class="bg-white flex justify-between items-center text-xs">
+            <!--Hannah Stravenue child one-->
+            <div class="p-2 px-3 flex gap-2 items-center">
+              <div
+                class="py-[1px] px-[5px] bg-[#d177ad] flex rounded justify-center items-center"
+              >
+                H
+              </div>
+              <p>87038 Hannah Stravenue</p>
             </div>
-            <p>87038 Hannah Stravenue</p>
-          </div>
-          <!-- right part of first line -->
-          <div class="flex gap-2 text-xs">
-            <div
-              class="w-8 h-6 bg-[#e5f7ea] justify-center items-center flex text-[#90e0a5] rounded"
-            >
-              Paid
-            </div>
-            <div class="flex items-center">
-              <p class="text-[#8a8a8a] ml-10">View Invoice</p>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="gray"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-chevron-right"
-                >
-                  <polyline points="9 18 15 12 9 6" />
-                </svg>
+            <!-- Hannah Stravenue child two -->
+            <div class="flex gap-2 text-xs">
+              <div
+                class="py-[1px] px-[5px] bg-[#e5f7ea] justify-center items-center flex text-[#90e0a5] rounded"
+              >
+                Paid
+              </div>
+              <div class="flex items-center">
+                <p class="text-[#8a8a8a] ml-10">View Invoice</p>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="gray"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-chevron-right"
+                  >
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <hr />
-        <div class="bg-white flex justify-between items-center text-xs">
-          <!--paid firsst line-->
-          <div class="p-2 px-3 flex gap-2 items-center">
-            <div
-              class="w-8 h-6 bg-[#7fd178] flex rounded justify-center items-center"
-            >
-              W
+          <hr />
+          <!--Weber Spur parent -->
+          <div class="bg-white flex justify-between items-center text-xs">
+            <!--Weber Spur< child one-->
+            <div class="p-2 px-3 flex gap-2 items-center">
+              <div
+                class="py-[1px] px-[5px] bg-[#7fd178] flex rounded justify-center items-center"
+              >
+                W
+              </div>
+              <p>6931 Weber Spur</p>
             </div>
-            <p>6931 Weber Spur</p>
-          </div>
-          <!-- right part of first line -->
-          <div class="flex gap-2 text-xs">
-            <div
-              class="w-8 h-6 bg-[#e5f7ea] justify-center items-center flex text-[#90e0a5] rounded"
-            >
-              Paid
-            </div>
-            <div class="flex items-center">
-              <p class="text-[#8a8a8a] ml-10">View Invoice</p>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="gray"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-chevron-right"
-                >
-                  <polyline points="9 18 15 12 9 6" />
-                </svg>
+            <!-- Weber Spur< child two -->
+            <div class="flex gap-2 text-xs">
+              <div
+                class="py-[1px] px-[5px] bg-[#e5f7ea] justify-center items-center flex text-[#90e0a5] rounded"
+              >
+                Paid
+              </div>
+              <div class="flex items-center">
+                <p class="text-[#8a8a8a] ml-10">View Invoice</p>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="gray"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-chevron-right"
+                  >
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
+          <hr />
         </div>
-        <hr />
       </div>
     </div>
   </body>
