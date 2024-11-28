@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wallet screen</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- current wallet parent-->
+    <div
+      class="w-[430px] rounded-[60px] bg-gradient-to-b from-[#e3f9ff] to-[#77dbfb] border-black border-[3px] my-24 mx-auto p-5 shadow-2xl"
+    >
+      <!-- first part time wifi charging battery div first-->
+      <div class="flex justify-between items-center">
+        <p>9:41</p>
+        <div class="flex gap-2 items-center">
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20px"
+              height="20px"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M4 20V19M8 20V16M12 20V12M16 20V8"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16px"
+              height="16px"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M1.33309 8.07433C0.92156 8.44266 0.886539 9.07485 1.25487 9.48638C1.62319 9.89791 2.25539 9.93293 2.66691 9.5646L1.33309 8.07433ZM21.3331 9.5646C21.7446 9.93293 22.3768 9.89791 22.7451 9.48638C23.1135 9.07485 23.0784 8.44266 22.6669 8.07433L21.3331 9.5646ZM12 19C11.4477 19 11 19.4477 11 20C11 20.5523 11.4477 21 12 21V19ZM12.01 21C12.5623 21 13.01 20.5523 13.01 20C13.01 19.4477 12.5623 19 12.01 19V21ZM14.6905 17.04C15.099 17.4116 15.7315 17.3817 16.1031 16.9732C16.4748 16.5646 16.4448 15.9322 16.0363 15.5605L14.6905 17.04ZM18.0539 13.3403C18.4624 13.7119 19.0949 13.682 19.4665 13.2734C19.8381 12.8649 19.8082 12.2324 19.3997 11.8608L18.0539 13.3403ZM7.96372 15.5605C7.55517 15.9322 7.52524 16.5646 7.89687 16.9732C8.2685 17.3817 8.90095 17.4116 9.3095 17.04L7.96372 15.5605ZM4.60034 11.8608C4.19179 12.2324 4.16185 12.8649 4.53348 13.2734C4.90511 13.682 5.53756 13.7119 5.94611 13.3403L4.60034 11.8608ZM2.66691 9.5646C5.14444 7.34716 8.41371 6 12 6V4C7.90275 4 4.16312 5.54138 1.33309 8.07433L2.66691 9.5646ZM12 6C15.5863 6 18.8556 7.34716 21.3331 9.5646L22.6669 8.07433C19.8369 5.54138 16.0972 4 12 4V6ZM12 21H12.01V19H12V21ZM12 16C13.0367 16 13.9793 16.3931 14.6905 17.04L16.0363 15.5605C14.9713 14.5918 13.5536 14 12 14V16ZM12 11C14.3319 11 16.4546 11.8855 18.0539 13.3403L19.3997 11.8608C17.4466 10.0842 14.8487 9 12 9V11ZM9.3095 17.04C10.0207 16.3931 10.9633 16 12 16V14C10.4464 14 9.02872 14.5918 7.96372 15.5605L9.3095 17.04ZM5.94611 13.3403C7.54544 11.8855 9.66815 11 12 11V9C9.15127 9 6.55344 10.0842 4.60034 11.8608L5.94611 13.3403Z"
+                fill="#000000"
+              />
+            </svg>
+          </div>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20px"
+              height="20px"
+              viewBox="0 0 16 16"
+              fill="#000000"
+              class="bi bi-battery-full"
+            >
+              <path d="M2 6h10v4H2V6z" />
+              <path
+                d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h10zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <!-- second part pay men notification div parent-->
+      <div class="flex justify-between items-center mt-3">
+        <!--pay and ntification child-->
+        <p class="font-bold text-2xl">Pay <sup class="-ml-1">+</sup></p>
+        <!-- Pay men and notification child 2 -->
+        <div
+          class="w-[80px] h-[40px] bg-white px-1 flex justify-between relative items-center rounded-3xl"
+        >
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-bell"
+            >
+              <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
+              <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+            </svg>
+          </div>
+          <div
+            class="w-[8px] h-[8px] rounded-full absolute top-[8px] left-[20px] bg-[#ff9f83]"
+          ></div>
+          <div
+            class="w-[35px] h-[35px] rounded-full flex items-center justify-center bg-[#e7e7e7]"
+          >
+            <img
+              class="w-[35px] h-[34px] rounded-full"
+              src="face removebg-preview.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!--third part paragraph BALANCE-->
+      <p class="text-slate-500 flex justify-center mt-12">Balance</p>
+      <p class="text-4xl justify-center flex font-bold mt-2">
+        $124,345. <span class="text-slate-500">00</span>
+      </p>
+      <!--4th part Deposit Transfer Scan Button-->
+      <div class="flex justify-evenly items-center mt-10">
+        <button
+          class="flex items-center gap-1 text-[#7cd4db] bg-[#2b5869] rounded-full p-1 px-2"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-plus"
+          >
+            <line x1="12" y1="5" x2="12" y2="19" />
+            <line x1="5" y1="12" x2="19" y2="12" />
+          </svg>
+          Deposit
+        </button>
+        <button
+          class="flex items-center gap-1 text-[#7cd4db] bg-[#2b5869] rounded-full p-1 px-2"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-arrow-up-right"
+          >
+            <line x1="7" y1="17" x2="17" y2="7" />
+            <polyline points="7 7 17 7 17 17" />
+          </svg>
+          Transfer
+        </button>
+        <button
+          class="flex items-center gap-1 text-[#7cd4db] bg-[#2b5869] rounded-full p-1 px-4"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-maximize"
+          >
+            <path
+              d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"
+            />
+          </svg>
+          Scan
+        </button>
+      </div>
+      <!--fivth part star personal left arrow-->
+      <div
+        class="bg-white p-2 rounded-full mt-7 flex justify-between items-center"
+      >
+        <div class="flex items-center gap-2">
+          <div
+            class="w-[34px] h-[34px] flex justify-center items-center rounded-full bg-[#70dcf0]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-star"
+            >
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+          </div>
+          <p><span class="text-slate-500">Personal</span> <br />$37,546.00</p>
+        </div>
+
+        <div
+          class="w-[30px] h-[30px] rounded-full bg-[#f4f4f4] p-2 flex justify-center items-center"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-arrow-right"
+          >
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </div>
+      </div>
+      <!--  six part line div-->
+      <div class="flex p-1 justify-center relative rounded-[10px] items-center">
+        <div
+          class="w-[300px] h-1 bg-[#c5eefb] absolute rounded-3xl top-[-2px]"
+        ></div>
+      </div>
+      <!-- seven part dot -->
+      <div class="flex justify-center mt-3 gap-2">
+        <div class="w-2 h-2 rounded-full bg-[#c2eefd]"></div>
+        <div class="w-[10px] h-[10px] rounded-full bg-white"></div>
+        <div class="w-2 h-2 rounded-full bg-[#c2eefd]"></div>
+      </div>
+      <!--eight part Transition -->
+      <div class="bg-slate-200 rounded-[60px] p-7 relative -m-5 mt-5">
+        <p>Transation</p>
+        <!--transation stripe part-->
+        <div class="flex justify-between items-center">
+          <div class="flex items-center gap-2">
+            <div
+              class="w-[34px] h-[34px] flex justify-center items-center relative rounded-full bg-[#6b7ef2]"
+            >
+              <div class="rounded-full bg-white absolute top-5 left-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#6b7ef2"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-plus"
+                >
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </div>
+              <p class="text-[6px] text-white">Stripe</p>
+            </div>
+            <p>
+              <span>Stripe Payment</span> <br />
+              <span class="text-slate-500">23 jan</span>
+            </p>
+          </div>
+
+          <p>+$2,349.00</p>
+        </div>
+        <!--transation red pay transfer-->
+        <div class="mt-2 flex justify-between items-center">
+          <div class="flex items-center gap-2">
+            <div
+              class="w-[34px] h-[34px] flex justify-center items-center relative rounded-full bg-[#f1736c]"
+            >
+              <div class="rounded-full bg-white absolute top-5 left-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#f1736c"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-arrow-up-right"
+                >
+                  <line x1="7" y1="17" x2="17" y2="7" />
+                  <polyline points="7 7 17 7 17 17" />
+                </svg>
+              </div>
+              <p class="text-[6px] text-white">Pay <sup>+</sup></p>
+            </div>
+            <p>
+              <span>Pay <sup>+</sup> Transfer</span> <br />
+              <span class="text-slate-500">21 Jan 2024</span>
+            </p>
+          </div>
+
+          <p>-$567.00</p>
+        </div>
+        <!--transation gumroad deposit-->
+        <div class="flex justify-between items-center">
+          <div class="flex items-center gap-2">
+            <div
+              class="w-[34px] h-[34px] flex justify-center items-center relative rounded-full bg-[#c970ed]"
+            >
+              <div class="rounded-full bg-white absolute top-5 left-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#c970ed"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-plus"
+                >
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </div>
+              <p class="text-[6px] text-white">Stripe</p>
+            </div>
+            <p>
+              <span>Gumroad Deposit</span> <br />
+              <span class="text-slate-500">$20 jan 2024</span>
+            </p>
+          </div>
+
+          <p>+$3,673.30</p>
+        </div>
+        <!-- this is a div in which last nine part home signal etc confusion make div to set element in center empty-->
+        <div class="flex justify-center ">
+          <div class="w-[320px] py-1  bg-white rounded-full flex gap-8 justify-center absolute bottom-6 items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-home"
+            >
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+              <polyline points="9 22 9 12 15 12 15 22" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-menu"
+            >
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+            <div
+              class="w-[40px] h-[40px] flex justify-center items-center rounded-full bg-[#6cc6f1]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28px"
+                height="28px"
+                viewBox="0 0 24 24"
+                fill="#ffffff"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M10.25 12.33C10.129 12.3286 10.0097 12.3013 9.90001 12.25L7.44002 11L5.00002 12.25C4.87533 12.3165 4.7344 12.3464 4.59347 12.3363C4.45253 12.3261 4.31732 12.2764 4.20341 12.1928C4.0895 12.1092 4.00153 11.9951 3.94962 11.8637C3.89771 11.7323 3.88398 11.5889 3.91002 11.45L4.38002 8.72001L2.38002 6.78001C2.27697 6.68178 2.20358 6.55658 2.16822 6.41868C2.13286 6.28077 2.13695 6.13571 2.18002 6.00001C2.22367 5.86637 2.30401 5.7477 2.41187 5.65752C2.51973 5.56735 2.65076 5.5093 2.79002 5.49001L5.54002 5.09001L6.76002 2.61001C6.83048 2.49413 6.9296 2.39834 7.04782 2.33186C7.16604 2.26539 7.29939 2.23047 7.43502 2.23047C7.57064 2.23047 7.70399 2.26539 7.82221 2.33186C7.94043 2.39834 8.03955 2.49413 8.11001 2.61001L9.34002 5.10001L12.09 5.50001C12.2282 5.5209 12.3578 5.57998 12.4642 5.67058C12.5706 5.76119 12.6495 5.87972 12.6922 6.0128C12.7348 6.14589 12.7394 6.28823 12.7054 6.42379C12.6715 6.55935 12.6003 6.68273 12.5 6.78001L10.5 8.72001L11 11.45C11.0259 11.5881 11.0124 11.7307 10.9611 11.8616C10.9098 11.9924 10.8228 12.1062 10.71 12.19C10.575 12.2833 10.4142 12.3323 10.25 12.33ZM4.51002 6.76001L5.69002 7.92001C5.77798 8.00356 5.84405 8.10745 5.88241 8.22255C5.92078 8.33764 5.93025 8.46039 5.91002 8.58001L5.63002 10.21L7.09002 9.44001C7.19863 9.38548 7.31848 9.35708 7.44002 9.35708C7.56155 9.35708 7.6814 9.38548 7.79002 9.44001L9.25002 10.21L9.00002 8.58001C8.97978 8.46039 8.98925 8.33764 9.02762 8.22255C9.06598 8.10745 9.13205 8.00356 9.22002 7.92001L10.4 6.76001L8.73001 6.53001C8.61082 6.51105 8.49786 6.46397 8.40048 6.39267C8.3031 6.32137 8.2241 6.22791 8.17002 6.12001L7.44002 4.63001L6.71002 6.12001C6.65498 6.22915 6.57443 6.32341 6.4752 6.39478C6.37597 6.46616 6.26099 6.51255 6.14002 6.53001L4.51002 6.76001Z"
+                    fill=""
+                    #ffffff
+                  />
+                  <path
+                    d="M12.33 21.81C12.1727 21.8082 12.0195 21.7594 11.89 21.67C11.7763 21.5866 11.688 21.4733 11.635 21.3426C11.582 21.2119 11.5664 21.069 11.59 20.93L12.17 17.59L9.74002 15.22C9.63751 15.1236 9.56504 14.9997 9.53133 14.8631C9.49762 14.7264 9.50411 14.583 9.55002 14.45C9.59292 14.3177 9.67174 14.2 9.7777 14.1099C9.88365 14.0199 10.0126 13.961 10.15 13.94L13.51 13.46L15 10.41C15.0705 10.2941 15.1696 10.1983 15.2878 10.1318C15.406 10.0654 15.5394 10.0305 15.675 10.0305C15.8106 10.0305 15.944 10.0654 16.0622 10.1318C16.1804 10.1983 16.2795 10.2941 16.35 10.41L17.85 13.46L21.2 13.94C21.339 13.9593 21.4698 14.0173 21.5775 14.1073C21.6852 14.1973 21.7655 14.3157 21.8092 14.449C21.853 14.5824 21.8584 14.7253 21.825 14.8616C21.7915 14.9979 21.7205 15.1221 21.62 15.22L19.2 17.59L19.77 20.93C19.7947 21.0681 19.7806 21.2103 19.7295 21.3409C19.6783 21.4715 19.5919 21.5854 19.48 21.67C19.3622 21.7458 19.2251 21.7861 19.085 21.7861C18.9449 21.7861 18.8078 21.7458 18.69 21.67L15.69 20.1L12.69 21.67C12.5848 21.7481 12.4604 21.7965 12.33 21.81ZM11.87 15.21L13.5 16.79C13.5856 16.877 13.6493 16.9832 13.6858 17.0997C13.7223 17.2162 13.7306 17.3397 13.71 17.46L13.33 19.69L15.33 18.63C15.4386 18.5755 15.5585 18.5471 15.68 18.5471C15.8016 18.5471 15.9214 18.5755 16.03 18.63L18.03 19.69L17.65 17.46C17.6249 17.3397 17.6311 17.2149 17.6678 17.0977C17.7046 16.9804 17.7707 16.8745 17.86 16.79L19.48 15.21L17.24 14.88C17.1197 14.8644 17.0053 14.8186 16.9074 14.7469C16.8094 14.6753 16.7312 14.58 16.68 14.47L15.68 12.47L14.68 14.47C14.6288 14.58 14.5506 14.6753 14.4527 14.7469C14.3548 14.8186 14.2403 14.8644 14.12 14.88L11.87 15.21Z"
+                    fill="#ffffff"
+                  />
+                </g>
+              </svg>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#e3e9ec"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-credit-card"
+            >
+              <rect x="1" y="4" width="22" height="16" rx="2" ry="2" />
+              <line x1="1" y1="10" x2="23" y2="10" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#e3e9ec"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-grid"
+            >
+              <rect x="3" y="3" width="7" height="7" />
+              <rect x="14" y="3" width="7" height="7" />
+              <rect x="14" y="14" width="7" height="7" />
+              <rect x="3" y="14" width="7" height="7" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
