@@ -9,10 +9,10 @@
   <body>
     <!-- current wallet parent-->
     <div
-      class="w-[430px] rounded-[60px] bg-gradient-to-b from-[#e3f9ff] to-[#77dbfb] border-black border-[3px] my-24 mx-auto p-5 shadow-2xl"
+      class="w-[430px] rounded-[60px] bg-gradient-to-b from-[#e3f9ff] to-[#77dbfb] border-black border-[3px] my-24 mx-auto p-5 shadow-2xl overflow-hidden"
     >
       <!-- first part time wifi charging battery div first-->
-      <div class="flex justify-between items-center">
+      <div class="flex justify-between items-center px-4">
         <p>9:41</p>
         <div class="flex gap-2 items-center">
           <div>
@@ -103,12 +103,12 @@
         </div>
       </div>
       <!--third part paragraph BALANCE-->
-      <p class="text-slate-500 flex justify-center mt-12">Balance</p>
-      <p class="text-4xl justify-center flex font-bold mt-2">
+      <p class="text-slate-500 flex justify-center mt-[80px]">Balance</p>
+      <p class="text-4xl justify-center flex font-bold mt-2 mb-16">
         $124,345. <span class="text-slate-500">00</span>
       </p>
       <!--4th part Deposit Transfer Scan Button-->
-      <div class="flex justify-evenly items-center mt-10">
+      <div class="flex justify-evenly items-center my-14">
         <button
           class="flex items-center gap-1 text-[#7cd4db] bg-[#2b5869] rounded-full p-1 px-2"
         >
@@ -173,7 +173,7 @@
       </div>
       <!--fivth part star personal left arrow-->
       <div
-        class="bg-white p-2 rounded-full mt-7 flex justify-between items-center"
+        class="bg-white p-2 rounded-full mt-7 flex justify-between items-center shadow-sm"
       >
         <div class="flex items-center gap-2">
           <div
@@ -220,122 +220,128 @@
         </div>
       </div>
       <!--  six part line div-->
-      <div class="flex p-1 justify-center relative rounded-[10px] items-center">
+      <div
+        class="flex p-1 justify-center relative rounded-[10px] items-center mb-8"
+      >
         <div
-          class="w-[300px] h-1 bg-[#c5eefb] absolute rounded-3xl top-[-2px]"
+          class="w-[320px] h-1 bg-teal-50 absolute rounded-b-full top-0"
         ></div>
       </div>
       <!-- seven part dot -->
-      <div class="flex justify-center mt-3 gap-2">
+      <div class="flex justify-center mt-3 gap-2 mb-8">
         <div class="w-2 h-2 rounded-full bg-[#c2eefd]"></div>
         <div class="w-[10px] h-[10px] rounded-full bg-white"></div>
         <div class="w-2 h-2 rounded-full bg-[#c2eefd]"></div>
       </div>
       <!--eight part Transition -->
-      <div class="bg-slate-200 rounded-[60px] p-7 relative -m-5 mt-5">
-        <p>Transation</p>
-        <!--transation stripe part-->
-        <div class="flex justify-between items-center">
-          <div class="flex items-center gap-2">
-            <div
-              class="w-[34px] h-[34px] flex justify-center items-center relative rounded-full bg-[#6b7ef2]"
-            >
-              <div class="rounded-full bg-white absolute top-5 left-5">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="15"
-                  height="15"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#6b7ef2"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-plus"
-                >
-                  <line x1="12" y1="5" x2="12" y2="19" />
-                  <line x1="5" y1="12" x2="19" y2="12" />
-                </svg>
+      <div class="bg-slate-200 rounded-[40px] p-7 relative -m-5 mt-5">
+        <p class="mb-4">Transation</p>
+        <div>
+          <!--transation stripe part-->
+          <div class="flex justify-between items-center mb-4">
+            <div class="flex items-center gap-2">
+              <div
+                class="w-[34px] h-[34px] flex justify-center items-center relative rounded-full bg-[#6b7ef2]"
+              >
+                <div class="rounded-full bg-white absolute top-5 left-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#6b7ef2"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-plus"
+                  >
+                    <line x1="12" y1="5" x2="12" y2="19" />
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                  </svg>
+                </div>
+                <p class="text-[6px] text-white">Stripe</p>
               </div>
-              <p class="text-[6px] text-white">Stripe</p>
+              <p>
+                <span>Stripe Payment</span> <br />
+                <span class="text-slate-500">23 jan</span>
+              </p>
             </div>
-            <p>
-              <span>Stripe Payment</span> <br />
-              <span class="text-slate-500">23 jan</span>
-            </p>
-          </div>
 
-          <p>+$2,349.00</p>
-        </div>
-        <!--transation red pay transfer-->
-        <div class="mt-2 flex justify-between items-center">
-          <div class="flex items-center gap-2">
-            <div
-              class="w-[34px] h-[34px] flex justify-center items-center relative rounded-full bg-[#f1736c]"
-            >
-              <div class="rounded-full bg-white absolute top-5 left-5">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="15"
-                  height="15"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#f1736c"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-arrow-up-right"
-                >
-                  <line x1="7" y1="17" x2="17" y2="7" />
-                  <polyline points="7 7 17 7 17 17" />
-                </svg>
+            <p>+$2,349.00</p>
+          </div>
+          <!--transation red pay transfer-->
+          <div class="mt-2 flex justify-between items-center mb-4">
+            <div class="flex items-center gap-2">
+              <div
+                class="w-[34px] h-[34px] flex justify-center items-center relative rounded-full bg-[#f1736c]"
+              >
+                <div class="rounded-full bg-white absolute top-5 left-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#f1736c"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-arrow-up-right"
+                  >
+                    <line x1="7" y1="17" x2="17" y2="7" />
+                    <polyline points="7 7 17 7 17 17" />
+                  </svg>
+                </div>
+                <p class="text-[6px] text-white">Pay <sup>+</sup></p>
               </div>
-              <p class="text-[6px] text-white">Pay <sup>+</sup></p>
+              <p>
+                <span>Pay <sup>+</sup> Transfer</span> <br />
+                <span class="text-slate-500">21 Jan 2024</span>
+              </p>
             </div>
-            <p>
-              <span>Pay <sup>+</sup> Transfer</span> <br />
-              <span class="text-slate-500">21 Jan 2024</span>
-            </p>
-          </div>
 
-          <p>-$567.00</p>
-        </div>
-        <!--transation gumroad deposit-->
-        <div class="flex justify-between items-center">
-          <div class="flex items-center gap-2">
-            <div
-              class="w-[34px] h-[34px] flex justify-center items-center relative rounded-full bg-[#c970ed]"
-            >
-              <div class="rounded-full bg-white absolute top-5 left-5">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="15"
-                  height="15"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#c970ed"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-plus"
-                >
-                  <line x1="12" y1="5" x2="12" y2="19" />
-                  <line x1="5" y1="12" x2="19" y2="12" />
-                </svg>
+            <p>-$567.00</p>
+          </div>
+          <!--transation gumroad deposit-->
+          <div class="flex justify-between items-center mb-8">
+            <div class="flex items-center gap-2">
+              <div
+                class="w-[34px] h-[34px] flex justify-center items-center relative rounded-full bg-[#c970ed]"
+              >
+                <div class="rounded-full bg-white absolute top-5 left-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#c970ed"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-plus"
+                  >
+                    <line x1="12" y1="5" x2="12" y2="19" />
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                  </svg>
+                </div>
+                <p class="text-[6px] text-white">Stripe</p>
               </div>
-              <p class="text-[6px] text-white">Stripe</p>
+              <p>
+                <span>Gumroad Deposit</span> <br />
+                <span class="text-slate-500">$20 jan 2024</span>
+              </p>
             </div>
-            <p>
-              <span>Gumroad Deposit</span> <br />
-              <span class="text-slate-500">$20 jan 2024</span>
-            </p>
-          </div>
 
-          <p>+$3,673.30</p>
+            <p>+$3,673.30</p>
+          </div>
         </div>
         <!-- this is a div in which last nine part home signal etc confusion make div to set element in center empty-->
-        <div class="flex justify-center ">
-          <div class="w-[320px] py-1  bg-white rounded-full flex gap-8 justify-center absolute bottom-6 items-center">
+        <div class="flex justify-center">
+          <div
+            class="w-[320px] py-1 bg-white rounded-full flex gap-8 justify-center absolute bottom-6 items-center py-2"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -357,7 +363,7 @@
               height="24"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="currentColor"
+              stroke="lightgray"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -368,7 +374,7 @@
               <line x1="3" y1="18" x2="21" y2="18" />
             </svg>
             <div
-              class="w-[40px] h-[40px] flex justify-center items-center rounded-full bg-[#6cc6f1]"
+              class="flex justify-center items-center rounded-full bg-[#6cc6f1] p-4"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
