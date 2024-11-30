@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="p-10">
+    <!--first container inwhic nav bar and picture -->
+    <div
+      class="w-full bg-cover p-10"
+      style="
+        --bg-url: url('./responsive.jpeg');
+        background-image: var(--bg-url);
+      "
+    >
+      <nav class="flex justify-between items-center">
+        <!--CHILD ONE-->
+
+        <div class="hidden gap-3 hidden md:flex text-white">
+          <button class="border-2 rounded-full py-1 px-3">Shop</button
+          ><button class="border-2 rounded-full py-1 px-3">About</button
+          ><button class="border-2 rounded-full py-1 px-3">Help</button>
+        </div>
+
+        <!-- CHILD TWO-->
+        <h1 class="text-white text-3xl">HOUSE</h1>
+        <!-- Child THREE-->
+        <div class="flex items-center gap-6">
+          <button
+            class="hidden p-1 rounded-full pr-1 items-cente md:flex bg-blue-400 px-4"
+          >
+            Search here <span class="mr-3 ml-1"> <sub>&#8594;</sub></span>
+            <div class="bg-black p-1 rounded-full justify-center items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-search"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </div></button
+          ><button
+            class="bg-[#186b6b] text-white hidden md:block rounded-full p-2 px-5"
+          >
+            Login
+          </button>
+          <form action="/action_page.php">
+            <select class="rounded-full p-1 px-3 md:hidden" name="" id="">
+              <option value="volvo">Log in</option>
+              <option value="saab">Home</option>
+              <option value="opel">Shop</option>
+              <option value="audi">About</option>
+            </select>
+          </form>
+        </div>
+      </nav>
+      <!--first container second part paragrap WE ARE SPECIALIZE why mx-auto not work-->
+      <p
+        class="flex justify-center text-center text-white mt-20 text- md:text-7xl"
+      >
+        We Are Specialize in Premium <br />Tennis Products
+      </p>
+      <p class="flex justify-center text-center mt-14 text-white">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum <br />
+        distinctio, cumque expedita minus quas qui esse illum aspernatur sunt
+      </p>
+      <button
+        class="text-white flex mx-auto mt-10 bg-red-500 rounded-full p-2 px-6"
+      >
+        Shop Now <span class="ml-3">&#8594;</span>
+      </button>
+      <!--last part of first container in which two pic and center paragraph-->
+      <div class="sm:flex justify-between items-center mt-10">
+        <img class="smw-3/12" src="chess.jpeg" alt="chess" />
+        <p class="text-white">SCROLL DOWN</p>
+        <div>
+          <div
+            class="bg-[rgba(80,99,113,0.5)] backdrop-blur-lg rounded-3xl bg-opacity-100 p-4 inline-block"
+          >
+            <div class="flex justify-end gap-20">
+              <div class="flex">
+                <!-- Star 1 -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="yellow"
+                  stroke="yellow"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-star"
+                >
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                  />
+                </svg>
+                <!-- Star 2 -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="yellow"
+                  stroke="yellow"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-star"
+                >
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                  />
+                </svg>
+                <!-- Star 3 -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="yellow"
+                  stroke="yellow"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-star"
+                >
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                  />
+                </svg>
+                <!-- Star 4 -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="yellow"
+                  stroke="yellow"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-star"
+                >
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                  />
+                </svg>
+                <!-- Star 5 -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="yellow"
+                  stroke="yellow"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-star"
+                >
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                  />
+                </svg>
+              </div>
+              <button
+                class="flex bg-white p-1 px-2 rounded-full items-center gap-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-share-2"
+                >
+                  <circle cx="18" cy="5" r="3" />
+                  <circle cx="6" cy="12" r="3" />
+                  <circle cx="18" cy="19" r="3" />
+                  <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+                  <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+                </svg>
+                Share Friends
+              </button>
+            </div>
+            <p class="text-white text-[10px]">5 Star Rating</p>
+            <div class="flex mt-4">
+              <img
+                class="w-10 h-10 rounded-full border-2 shadow-lg"
+                src="one.jpeg"
+                alt=""
+              />
+              <img
+                class="w-10 h-10 rounded-full -ml-4 border-2 shadow-lg"
+                src="two.jpeg"
+                alt=""
+              />
+              <img
+                class="w-10 h-10 rounded-full -ml-4 border-2 shadow-lg"
+                src="three.jpeg"
+                alt=""
+              />
+              <img
+                class="w-10 h-10 rounded-full -ml-4 border-2 shadow-lg"
+                src="four.jpeg"
+                alt=""
+              />
+              <img
+                class="w-10 h-10 rounded-full -ml-4 border-2 shadow-lg"
+                src="five.jpeg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

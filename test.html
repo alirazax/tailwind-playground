@@ -3,26 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>test</title>
+    <title>Test</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div
-      class="w-[60px] h-[200px] bg-gradient-to-t from-[#e8eaee] mt-5 rounded-b-full mx-auto flex flex-col justify-center items-center"
-    >
-      <p
-        class="bg-black text-zinc-50 rounded-2xl flex justify-between items-center text-sm p-[3px] px-[8px]"
-      >
-        $2,567
-      </p>
-      <div class="flex flex-col justify-center items-center">
-        <div class="w-[1px] h-24 bg-slate-300 mt-2"></div>
-        <div
-          class="w-8 h-8 bg-black rounded-full mt-2 flex text-white justify-center items-center text-1xl"
-        >
-          M
-        </div>
-      </div>
+    <div class="flex md:hidden">
+      <p>I appear as a flex container on small screens only</p>
+    </div>
+    <div class="hidden md:flex">
+      <p>I become a flex container on medium and larger screens</p>
     </div>
   </body>
 </html>
