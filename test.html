@@ -3,15 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test</title>
+    <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div class="flex md:hidden">
-      <p>I appear as a flex container on small screens only</p>
-    </div>
-    <div class="hidden md:flex">
-      <p>I become a flex container on medium and larger screens</p>
+    <div class="flex min-h-full flex-col px-6">
+      <div class="p-10 sm:mx-auto sm:w-full sm:max-w-sm ">
+        <img class="h-10 w-auto mx-auto mt-5" src="four.jpeg  " alt="logo" />
+        <p class="mt-5 class text-center">Sign in to your account</p>
+      </div>
+      <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+        <form class="mt-5 mx-auto" action="#">
+          <label for="Email Address">Emai Address</label>
+          <input
+            class="w-full rounded-md mt-5 bg-white px-3 py-1.5 text-base text-gray-900 outline outline-2 outline-gray-300 focus:outline-2 focus:outline-blue-300"
+            type="text"
+          />
+          <div class="flex justify-between mt-10">
+            <label for="">Password</label>
+            <a href="">Forgeet Password</a>
+          </div>
+          <input
+            class="w-full px-3 py-2 bg-white outline mt-5 outline-2 outline-gray-300 rounded-md focus:outline-2 focus:outline-blue-400"
+            type="text"
+          />
+          <div>
+            <button
+              class="w-full rounded-md bg-red-500 text-white hover:text-black px-3 py-1.5 mt-8 hover:bg-blue-200"
+            >
+              Sig in
+            </button>
+          </div>
+        </form>
+        <p class="mt-8 text-center">
+          Not a member?<a href="#" class="hover:text-blue-500">
+            start a 14 days free tria</a
+          >
+        </p>
+      </div>
     </div>
   </body>
 </html>

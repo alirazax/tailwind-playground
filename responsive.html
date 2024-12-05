@@ -6,10 +6,10 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="p-10">
+  <body>
     <!--first container inwhic nav bar and picture -->
     <div
-      class="w-full bg-cover p-10"
+      class="w-full bg-cover p-2 sm:p-10"
       style="
         --bg-url: url('./responsive.jpeg');
         background-image: var(--bg-url);
@@ -29,7 +29,7 @@
         <!-- Child THREE-->
         <div class="flex items-center gap-6">
           <button
-            class="hidden p-1 rounded-full pr-1 items-cente md:flex bg-blue-400 px-4"
+            class="hidden p-1 rounded-full pr-1 md:items-center md:flex bg-blue-400 px-4"
           >
             Search here <span class="mr-3 ml-1"> <sub>&#8594;</sub></span>
             <div class="bg-black p-1 rounded-full justify-center items-center">
@@ -80,14 +80,14 @@
         Shop Now <span class="ml-3">&#8594;</span>
       </button>
       <!--last part of first container in which two pic and center paragraph-->
-      <div class="sm:iflex justify-between items-center mt-10">
-        <img class="smw-3/12" src="chess.jpeg" alt="chess" />
-        <p class="text-white">SCROLL DOWN</p>
+      <div class="sm:flex justify-between items-center sm:mt-20">
+        <img class="mt-10 sm:w-3/12" src="chess.jpeg" alt="chess" />
+        <p class="text-white justify-center mt-5 text-center">SCROLL DOWN</p>
         <div>
           <div
-            class="bg-[rgba(80,99,113,0.5)] backdrop-blur-lg rounded-3xl bg-opacity-100 p-4 inline-block"
+            class="bg-[rgba(80,99,113,0.5)] backdrop-blur-lg rounded-3xl bg-opacity-100 p-4 w-full mt-5 inline-block"
           >
-            <div class="flex justify-end gap-20">
+            <div class="flex justify-between gap-20">
               <div class="flex">
                 <!-- Star 1 -->
                 <svg
